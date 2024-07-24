@@ -32,6 +32,11 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+body.index-background {
+  background: url('https://netstorage-legit.akamaized.net/images/483b6887329e1683.png?imwidth=900') no-repeat;
+  background-size: 1590px 900px;
+  background-position: center;
+}
 
 h1 {
   font-size: 3.2em;

@@ -1,8 +1,8 @@
 package Data;
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.launchcode.TEAR_API.HomeController;
 import org.springframework.data.repository.CrudRepository;
 
-public interface AccountRepository extends CrudRepositoryRepository<> {
+public interface HomeControllerRepository extends CrudRepository<HomeController, Long> {
     // custom query methods can be added here if needed
 }
 

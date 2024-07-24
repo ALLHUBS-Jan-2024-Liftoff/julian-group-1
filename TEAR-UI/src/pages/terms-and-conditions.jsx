@@ -1,6 +1,6 @@
 import React from 'react';
 
-Const TermsAndConditions = () => {
+const TermsAndConditions = () => {
     return (
         <div>
             <h1>Terms and Conditions</h1>

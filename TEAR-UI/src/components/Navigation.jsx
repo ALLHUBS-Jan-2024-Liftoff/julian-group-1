@@ -3,9 +3,7 @@ import React from "react";
 const Navigation = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark">
-
-            <a className="navbar-brand" href="/">Treasured Chest</a>
-
+        <a className="navbar-brand" href="/">Treasured Chest</a>
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav">
                     <li className="nav-item active">
@@ -23,8 +21,7 @@ const Navigation = () => {
                 </ul>
             </div>
         </nav>
-        
     )
 }
 
-export default Navigation
+export default Navigation;
